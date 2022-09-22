@@ -2,11 +2,11 @@ class Admin::CategoriesController < ApplicationController
   http_basic_authenticate_with name: ENV['USERNAME'], password: ENV['PASSWORD']
 
   def index
-    @Categories = Category.order(id: :desc).all
+    @categories = Category.order(id: :desc).all
   end
 
   def new
-    @Category = Category.new
+    @category = Category.new
   end
 
   # def create
