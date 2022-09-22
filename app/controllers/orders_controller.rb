@@ -33,6 +33,7 @@ class OrdersController < ApplicationController
       description: "Khurram Virani's Jungle Order",
       currency:    'cad'
     )
+    
   end
 
   def create_order(stripe_charge)
