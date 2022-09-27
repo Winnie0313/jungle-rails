@@ -121,18 +121,12 @@ RSpec.describe User, type: :model do
       expect(@user_2.errors.full_messages).to include("Email has already been taken")
     end 
 
-
-
-  
-
-
- 
   end
 
 
   
   describe '.authenticate_with_credentials' do
-    before do
+    before(:each) do
       @user = User.new(
         first_name: "Winnie",
         last_name: "Li",
