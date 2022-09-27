@@ -9,4 +9,14 @@ class User < ApplicationRecord
   # check if passwork and password_confirmation are the same
   validates :password, confirmation: { case_sensitive: ture }
 
+  def authenticate_with_credentials(email_address, password)
+    @user = User.find_by(email: email_address)
+    if @user
+      @user
+    else 
+      nil
+    end 
+  end 
+
+
 end
