@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 that allows users to shop plants. 
+A mini e-commerce application built with Rails 6.1 that allows users to shop plants and admin to manage products. 
 
 ## Final Product
 
