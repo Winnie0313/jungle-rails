@@ -1,6 +1,17 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 that allows users to shop plants. 
+
+## Final Product
+
+Homepage
+!["homepage"](https://github.com/Winnie0313/jungle-rails/blob/master/docs/homepage.png?raw=true)
+
+Product Detail Page
+!["product-detail-page"](https://github.com/Winnie0313/jungle-rails/blob/master/docs/product-detail-page.png?raw=true)
+
+My Cart Page
+!["my-cart-page.png"](https://github.com/Winnie0313/jungle-rails/blob/master/docs/my-cart-page.png?raw=true)
 
 ## Setup
 
